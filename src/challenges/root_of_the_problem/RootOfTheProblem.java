@@ -1,11 +1,9 @@
-package com.andrewebdev.root_of_the_problem;
+package challenges.root_of_the_problem;
 
 import java.util.Scanner;
 
 /**
- * "Root of the Problem" Challenge:
- *
- * Solution:
+ * "Root of the Problem" Solution:
  *
  * Each node id and the sum of each node's children are given.
  * The root node id will not be included in any children sum of any node.
@@ -57,7 +55,7 @@ public class RootOfTheProblem {
 					sumTotal += sum;
 					n--;
 				}
-				// Difference is root id, as it will not be include in any sum
+				// Difference is root id, as it will not be included in any sum
 				rootId = idTotal - sumTotal;
 				System.out.println(rootId);
 				t--;
